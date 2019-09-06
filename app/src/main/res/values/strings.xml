@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Popular Movies App 2</string>
+    <string name="sort_title">Sort</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="sort_top_rated_movies">Top rated</string>
+    <string name="sort_popular_movies">Popularity</string>
+    <string name="about_movie">About the movie</string>
+    <string name="error_message">There is error... please try again. </string>
+    <string name="favorite_movie">Favorite</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_duration">100 min</string>
+    <string name="movie_added">Movie Added to your Favorite</string>
+    <string name="movie_trailer">Trailer</string>
+    <string name="username_review">john123</string>
+    <string name="content_review">Here, it is the content review about the movie</string>
+    <string name="movie_review_string">Click Here to read reviews</string>
 </resources>

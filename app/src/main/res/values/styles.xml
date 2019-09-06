@@ -1,11 +1,26 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+    <style name="Base.V7.Widget.AppCompat.Toolbar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="actionOverflowMenuStyle">@style/MyOverflowMenu</item>
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+
+
     </style>
 
+    <style name="MyOverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+    </style>
 </resources>

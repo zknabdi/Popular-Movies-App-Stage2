@@ -1,7 +1,9 @@
-package com.training.popularmoviefinalapp;
+package com.training.popularmoviefinalapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.training.popularmoviefinalapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
