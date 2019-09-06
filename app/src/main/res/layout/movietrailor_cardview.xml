@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_movietrailer_cardview">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/tv_movietrailer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trailer"
+            android:textSize="28sp"
+            android:background="@color/titleColor"
+            android:padding="12dp"
+            app:layout_constraintLeft_toRightOf="@id/iv_movietrailer_ic"
+            tools:ignore="HardcodedText,MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/iv_movietrailer_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@mipmap/ic_videocam_white_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_movietrailer_name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/movietrailer_ic" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>

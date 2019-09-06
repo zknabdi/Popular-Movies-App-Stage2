@@ -1,0 +1,6 @@
+References
+http://benjii.me/2010/08/endless-scrolling-listview-in-android/
+http://stackoverflow.com/questions/1080811/android-endless-list
+http://stackoverflow.com/questions/12583419/android-listview-automatically-load-more-data-when-scroll-to-the-bottom
+https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView
+https://www.supinfo.com/articles/single/7849-developing-popular-movies-application-in-android-using-retrofit

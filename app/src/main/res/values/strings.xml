@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Popular Movies App 2</string>
+    <string name="app_name">Popular Movies App</string>
     <string name="sort_title">Sort</string>
     <string name="movie_poster">Movie Poster</string>
     <string name="sort_top_rated_movies">Top rated</string>
@@ -14,4 +14,7 @@
     <string name="username_review">john123</string>
     <string name="content_review">Here, it is the content review about the movie</string>
     <string name="movie_review_string">Click Here to read reviews</string>
+    <string name="review_content_st">See Content</string>
+    <string name="reviewer_name">User Review</string>
+    <string name="movietrailer_ic">Movie Trailer Icon</string>
 </resources>
