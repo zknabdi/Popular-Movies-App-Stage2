@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="@string/sort_title"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_menu_white_18dp"
+
+
+        >
+
+        <menu>
+            <item android:id="@+id/sort_by_pop_movies"
+                android:title="@string/sort_popular_movies" />
+            <item android:id="@+id/sort_by_top_movies"
+                android:title="@string/sort_top_rated_movies" />
+            <item android:id="@+id/favorite_movies_fb" android:title="@string/favorite_movie"/>
+        </menu>
+    </item>
+
+</menu>

@@ -17,4 +17,6 @@
     <string name="review_content_st">See Content</string>
     <string name="reviewer_name">User Review</string>
     <string name="movietrailer_ic">Movie Trailer Icon</string>
+    <string name="refresh_internet">Refresh Now</string>
+    <string name="movie_desc">Movie Image</string>
 </resources>
