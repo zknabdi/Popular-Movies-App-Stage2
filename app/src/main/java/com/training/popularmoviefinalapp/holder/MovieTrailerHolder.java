@@ -8,6 +8,7 @@ import android.widget.TextView;
 import com.training.popularmoviefinalapp.R;
 import com.training.popularmoviefinalapp.model.MovieTrailer;
 import com.training.popularmoviefinalapp.service.MovieServiceClickListener;
+import com.training.popularmoviefinalapp.service.MovieTrailerServiceClickerList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,12 +25,12 @@ public class MovieTrailerHolder extends RecyclerView.ViewHolder {
         ButterKnife.bind(this, view);
     }
 
-    public void createBind(final MovieTrailer movieTrailer, final MovieServiceClickListener movieTrailerServiceClickListener) {
+    public void createBind(final MovieTrailer movieTrailer, final MovieTrailerServiceClickerList movieTrailerServiceClickerList) {
     tvMovieTrailerName.setText(movieTrailer.getName());
     itemView.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            movieTrailerServiceClickListener.onMovieTrailerClicker(movieTrailer);
+            movieTrailerServiceClickerList.onMovieTrailerClicker(movieTrailer);
         }
     });
     }//end method

@@ -18,7 +18,7 @@ public class Movie implements Serializable {
     @SerializedName("video")
     private boolean video;
     @SerializedName("vote_average")
-    private float voteAverage;
+    private double voteAverage;
     @SerializedName("title")
     private String title;
     @SerializedName("popularity")
@@ -41,22 +41,22 @@ public class Movie implements Serializable {
     private String releaseDate;
 
 
-    public Movie(int voteCount, int id, boolean video, float voteAverage, String title, float popularity, String posterPath, String originalLanguage, String originalTitle, List<Integer> genreIds, String backdropPath, boolean adult, String overview, String releaseDate) {
-        this.voteCount = voteCount;
-        this.id = id;
-        this.video = video;
-        this.voteAverage = voteAverage;
-        this.title = title;
-        this.popularity = popularity;
-        this.posterPath = posterPath;
-        this.originalLanguage = originalLanguage;
-        this.originalTitle = originalTitle;
-        this.genreIds = genreIds;
-        this.backdropPath = backdropPath;
-        this.adult = adult;
-        this.overview = overview;
-        this.releaseDate = releaseDate;
-    }
+//    public Movie(int voteCount, int id, boolean video, double voteAverage, String title, float popularity, String posterPath, String originalLanguage, String originalTitle, List<Integer> genreIds, String backdropPath, boolean adult, String overview, String releaseDate) {
+//        this.voteCount = voteCount;
+//        this.id = id;
+//        this.video = video;
+//        this.voteAverage = voteAverage;
+//        this.title = title;
+//        this.popularity = popularity;
+//        this.posterPath = posterPath;
+//        this.originalLanguage = originalLanguage;
+//        this.originalTitle = originalTitle;
+//        this.genreIds = genreIds;
+//        this.backdropPath = backdropPath;
+//        this.adult = adult;
+//        this.overview = overview;
+//        this.releaseDate = releaseDate;
+//    }
 
     public int getVoteCount() {
         return voteCount;
@@ -82,11 +82,11 @@ public class Movie implements Serializable {
         this.video = video;
     }
 
-    public float getVoteAverage() {
+    public double getVoteAverage() {
         return voteAverage;
     }
 
-    public void setVoteAverage(float voteAverage) {
+    public void setVoteAverage(double voteAverage) {
         this.voteAverage = voteAverage;
     }
 

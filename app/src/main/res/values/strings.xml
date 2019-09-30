@@ -19,4 +19,7 @@
     <string name="movietrailer_ic">Movie Trailer Icon</string>
     <string name="refresh_internet">Refresh Now</string>
     <string name="movie_desc">Movie Image</string>
+    <string name="addedToFavorite">Added to the Favorite</string>
+    <string name="removedFromFavorite">Remove from th Favorite</string>
+    <string name="unknown_message">Error Happpened..</string>
 </resources>

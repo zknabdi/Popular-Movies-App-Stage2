@@ -10,15 +10,16 @@ import com.training.popularmoviefinalapp.R;
 import com.training.popularmoviefinalapp.holder.MovieTrailerHolder;
 import com.training.popularmoviefinalapp.model.MovieTrailer;
 import com.training.popularmoviefinalapp.service.MovieServiceClickListener;
+import com.training.popularmoviefinalapp.service.MovieTrailerServiceClickerList;
 
 import java.util.List;
 
 public class MovieTrailerAdapter extends RecyclerView.Adapter<MovieTrailerHolder> {
 
-    private final MovieServiceClickListener movieTrailerServiceClickListener;
+    private final MovieTrailerServiceClickerList movieTrailerServiceClickListener;
     private final List<MovieTrailer> movieTrailerList;
 
-    public MovieTrailerAdapter(MovieServiceClickListener movieTrailerServiceClickListener, List<MovieTrailer> movieTrailerList) {
+    public MovieTrailerAdapter(MovieTrailerServiceClickerList movieTrailerServiceClickListener, List<MovieTrailer> movieTrailerList) {
         this.movieTrailerServiceClickListener = movieTrailerServiceClickListener;
         this.movieTrailerList = movieTrailerList;
     }
